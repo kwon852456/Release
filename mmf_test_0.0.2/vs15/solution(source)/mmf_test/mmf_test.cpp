@@ -61,7 +61,6 @@ void write_s() {
 }
 void write_ws() {
 
-	
 	hnd::t wsMmf = create_mmf("mmftest_pchr", 1024);
 	mmf_ws(wsMmf, L"안녕하세요 from c++..!");
 
@@ -163,7 +162,6 @@ void ws_pip() {
 			co_s(s_yHdr(buffer));
 		}
 		*/
-
 
 	}
 }
