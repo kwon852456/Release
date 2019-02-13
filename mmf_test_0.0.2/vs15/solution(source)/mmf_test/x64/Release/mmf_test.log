@@ -1,0 +1,86 @@
+﻿  pch.cpp
+  mmf_test.cpp
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(9): error C2871: 'rv2': 같은 이름을 가진 네임스페이스가 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(11): error C2653: 'head': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(11): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(11): error C2146: 구문 오류: ';'이(가) 'headEnc_ws' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(11): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(11): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(22): error C2653: 'z': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(22): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(22): error C2146: 구문 오류: ';'이(가) 'y_wP' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(22): error C2653: 'y': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(22): error C2653: 'w': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(22): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(22): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(23): error C2653: 'vo': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(23): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(23): error C2086: 'int t': 재정의
+  d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(22): note: 't' 선언을 참조하십시오.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(23): error C2146: 구문 오류: ';'이(가) 'y_ws' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(23): error C2653: 'y': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(23): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(23): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(25): error C2653: 'vo': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(25): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(25): error C2086: 'int t': 재정의
+  d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(22): note: 't' 선언을 참조하십시오.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(25): error C2146: 구문 오류: ';'이(가) 'wp_y' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(25): error C2653: 'w': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(25): error C2653: 'y': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(25): error C2653: 'z': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(25): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(25): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(27): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(27): error C2146: 구문 오류: ';'이(가) 'ws_y' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(27): error C2653: 'y': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(27): error C2653: 'z': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(27): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(27): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(29): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(29): error C2086: 'int wstring': 재정의
+  d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(27): note: 'wstring' 선언을 참조하십시오.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(29): error C2146: 구문 오류: ';'이(가) 'ws_headRaw' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(29): error C2653: 'y': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(29): error C2653: 'head': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(29): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(29): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(31): error C2653: 'head': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(31): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(31): error C2086: 'int U': 재정의
+  d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(11): note: 'U' 선언을 참조하십시오.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(31): error C2146: 구문 오류: ';'이(가) 'headRaw_ws' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(31): error C2653: 'y': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(31): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(31): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(32): error C2653: 'i': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(32): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(32): error C2146: 구문 오류: ';'이(가) 'yHdr_ws' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(32): error C2653: 'y': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(32): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(32): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(34): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(34): error C2086: 'int wstring': 재정의
+  d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(27): note: 'wstring' 선언을 참조하십시오.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(34): error C2146: 구문 오류: ';'이(가) 'ws_yHdr' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(34): error C2653: 'y': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(34): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(34): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(36): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(36): error C2086: 'int wstring': 재정의
+  d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(27): note: 'wstring' 선언을 참조하십시오.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(36): error C2146: 구문 오류: ';'이(가) 'ws_mmf' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(36): error C2653: 'hnd': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(36): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(36): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(49): error C2653: 'mmf': 클래스 또는 네임스페이스 이름이 아닙니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(49): error C2065: 'l': 선언되지 않은 식별자입니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(49): error C2146: 구문 오류: ';'이(가) 'mmfWriter' 식별자 앞에 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(49): error C3861: 'mmfWriter': 식별자를 찾을 수 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(50): error C2065: 'mmfWriter': 선언되지 않은 식별자입니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(54): error C2065: 'wcout': 선언되지 않은 식별자입니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(54): error C3861: 'open_mmf': 식별자를 찾을 수 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(54): error C3861: 'ws_mmf': 식별자를 찾을 수 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(54): error C2065: 'endl': 선언되지 않은 식별자입니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(76): error C3861: 'co_s': 식별자를 찾을 수 없습니다.
+d:\dev\gdrv\dev\code\rv\cpp\0.0.5\proj\mmf_test\mmf_test\mmf_test.cpp(78): error C3861: '_kbhit': 식별자를 찾을 수 없습니다.
