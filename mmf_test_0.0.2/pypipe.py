@@ -94,12 +94,12 @@ def pipe_ws(string):
                                    None) # overlapped
         print("got client")
 
-        print(f"writing message {count}")
+        #print(f"writing message {count}")
             # convert to bytes
             
         data = header.yHdr_ws(string)
         
-        print(f"data to send : {data}")
+        #print(f"data to send : {data}")
         
         win32file.WriteFile(pipe, data) 
         #win32file.WriteFile(pipe, b'hello pipe...!') 

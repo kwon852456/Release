@@ -16,6 +16,8 @@ def print_menu():
     print("0. 종 료")
     
     menu = input("메뉴선택: ")
+    if(menu.isdigit() != True):
+        return 10
     return int(menu)
 
 
@@ -41,7 +43,7 @@ if __name__ == "__main__":
         elif menu == 7:
             
             recvData = pypipe.pipe_ws("안녕하세요 c++ from python...!")        
-            print(f"pipe로부터의 메세지: {recvData} ")            
+	
 
             
         elif menu == 6:
@@ -68,6 +70,10 @@ if __name__ == "__main__":
                     
         elif menu == 1:
             mmf.update( pymmf.header.yHdr_s("hello C++ from python..!"))
+
+        else :
+            print("잘못 입력되었습니다")
+
         
-        print("\n" * 10)
+        print("\n" * 5)
             
