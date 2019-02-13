@@ -39,7 +39,7 @@ wstring ws_mmf(hnd::R _hMmf) { ; wstring ws_; if (_hMmf != hnd::T0) { y::p yRaw(
 b::T mmf_ws(hnd::r  hMmf_, wstring _ws) { ; y::p yHdr(nil); z::T z(yHdr_ws(yHdr, _ws)); b::T b_(mmf_y(hMmf_, yHdr, z)); delete yHdr; return b_; } //writ
 
 
-
+/*          MMF           */
 void read_s() {
 
 	mmf::reader::l mmfReader("mmftest_pchr");
@@ -52,22 +52,25 @@ void read_ws() {
 	wcout << ws_mmf(open_mmf("mmftest_pchr")) << endl;
 
 }
-void write_s() {
+void write_s(s::T stringToSend = "hello from c++...!") {
 
 	
 	mmf::writer::l mmfWriter("mmftest_pchr", "unused..");
-	mmfWriter.writ_s("hello from c++...!");
+	mmfWriter.writ_s(stringToSend);
 
 }
-void write_ws() {
+void write_ws(const wstring stringToSend = L"안녕하세요 from c++..!") {
 
 	hnd::t wsMmf = create_mmf("mmftest_pchr", 1024);
-	mmf_ws(wsMmf, L"안녕하세요 from c++..!");
+	mmf_ws(wsMmf, stringToSend);
 
 }
+/*       End   MMF           */
 
+
+/*       PIPE               */
 void read_pip() {
-	HANDLE hPipe;
+	hnd::t hPipe;
 	unsigned char buffer[1024];
 	DWORD dwRead;
 
@@ -93,13 +96,12 @@ void read_pip() {
 	}
 }
 
-void write_pip() {
+void write_pip(s::T stringToSend = "hello python..! from c++") {
 	
 	hnd::t hPipe;
-	unsigned long dwWritten;
 	y::p data;
+	z::t size = yHdr_s(data, stringToSend);
 
-	z::t size = yHdr_s(data, "hello python..! from c++");
 	activate_cpPipe(hPipe, "\\\\.\\pipe\\Foo", 1024);
 
 	if (hPipe != INVALID_HANDLE_VALUE)
@@ -116,13 +118,13 @@ void write_pip() {
 
 }
 
-void pip_ws() {
+void pip_ws(const wstring stringToSend = L"안녕하세요 파이썬..! from c++") {
 
 	hnd::t hPipe;
 	unsigned long dwWritten;
 	y::p data;
 
-	z::t size = yHdr_ws(data, L"안녕하세요 파이썬..! from c++");
+	z::t size = yHdr_ws(data, stringToSend);
 	activate_cpPipe(hPipe, "\\\\.\\pipe\\Foo", 1024);
 
 	if (hPipe != INVALID_HANDLE_VALUE)
@@ -165,6 +167,8 @@ void ws_pip() {
 
 	}
 }
+
+/*       End   PIPE           */
 
 
 int main()
