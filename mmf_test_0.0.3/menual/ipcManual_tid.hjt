@@ -325,7 +325,7 @@ dt=Text
 headRaw_ws
 3
 !!head::U headRaw_ws(y::p& yRaw_, wstring _ws)
-*wstring _ws를 받아서 해당 유니코드 문자열은 yRaw_에 담고 그 헤더를 리턴한다
+*wstring _ws를 받아서 해당 utf-8으로 인코딩된 문자열은 yRaw_에 담고 그 헤더를 리턴한다
 
 !!사용법
 
@@ -469,7 +469,7 @@ dt=Text
 write_ws
 3
 !!void write_ws()
-*기본값 'mmftest_pchr'의 이름을 가진 mmf에 hello 안녕하세요 from c++..! 을 yHdr타입으로 write한다.
+*기본값 'mmftest_pchr'의 이름을 가진 mmf에 utf-8 유니코드 문자열 'hello 안녕하세요 from c++..!' 을 yHdr타입으로 write한다.
 
 !!사용법
 
@@ -523,7 +523,7 @@ dt=Text
 pip_ws
 3
 !!void pip_ws()
-*기본이름 '\\\\.\\pipe\\Foo'을 가진 namedPipe를 생성하고 유니코드 문자열 '안녕하세요 파이썬..! from c++' 을 yHdr타입으로 write한다. 
+*기본이름 '\\\\.\\pipe\\Foo'을 가진 namedPipe를 생성하고 utf-8 유니코드 문자열 '안녕하세요 파이썬..! from c++' 을 yHdr타입으로 write한다. 
 
 !!사용법
 
@@ -541,7 +541,7 @@ dt=Text
 ws_pip
 3
 !!void ws_pip()
-*기본이름 '\\\\.\\pipe\\Foo'을 가진 namedPipe로부터 yHdr을 받아서 wstring 타입 문자열로 콘솔에 출력한다.
+*기본이름 '\\\\.\\pipe\\Foo'을 가진 namedPipe로부터 yHdr을 받아서 utf-8 유니코드 타입 문자열로 콘솔에 출력한다.
 
 !!사용법
 
