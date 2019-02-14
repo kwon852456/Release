@@ -1,0 +1,557 @@
+<Treepad version 2.7>
+dt=Text
+<node>
+DefaultTiddlers
+0
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+SiteTitle
+1
+title
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+SiteSubtitle
+1
+subtitle
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+MainMenu
+1
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+1.Intro
+2
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+2.Python
+2
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+mmf
+3
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+class-Mmf
+4
+def __init__(self, nameOfMmf):
+
+*생성자로서 생성할 Mmf의 이름을 인자로 받는다.
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+update
+5
+!!def update(self, data) :
+*생성자에서 생성한 이름의 mmf에 바이트형 데이터 data를 기록한다.
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+update_ws
+5
+!!def update_ws(self, data) :
+*생성자에서 생성한 이름의 mmf에 유니코드 문자열 데이터(한글)를 기록한다.
+
+*data의 타입은 일반 ''문자열로 넣으시면 알아서 유니코드로 변환해서 전송하도록 설계되어있습니다.
+
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+read_s
+5
+!!def read_s(self, data) :
+*생성자에서 생성한 mmf핸들로부터 바이트데이터를 읽어서 리턴한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+read_ws
+5
+!!def read_ws(self, data) :
+*생성자에서 생성한 mmf핸들로부터 유니코드 문자열 데이터를 읽어서 리턴한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+close
+5
+!!def close(self):
+*update와 read과정에서 생긴 MMF핸들러에 할당되어있는 자원을 모두 해제시킨다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+pipe
+3
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+writePipe
+4
+!!def writePipe(string):
+*기본 파이프명 '\\.\pipe\Foo' 로 설정되어있는 파이프에 바이트데이터 (문자열)을 전송한다.기본 버퍼사이즈는 65536로 설정되어있습니다.
+
+*파이프명에 수정이 필요할경우 파이프 명만 수정하시면 됩니다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+readPipe
+4
+!!def readPipe():
+*기본 파이프명 '\\.\pipe\Foo' 로 설정되어있는 파이프로부터 바이트 데이터를 읽어서 리턴한다.
+
+*파이프명에 수정이 필요할경우 파이프 명만 수정하시면 됩니다.
+
+!!사용법
+
+<code>
+
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+pipe_ws
+4
+!!def pipe_ws(string):
+*기본 파이프명 '\\.\pipe\Foo' 로 설정되어있는 파이프에 유니코드 문자열을 전송한다.기본 버퍼사이즈는 65536로 설정되어있습니다.
+
+*파이프명에 수정이 필요할경우 파이프 명만 수정하시면 됩니다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+ws_pipe
+4
+!!def ws_pipe():
+*기본 파이프명 '\\.\pipe\Foo' 로 설정되어있는 파이프에 유니코드 문자열을 전송한다.기본 버퍼사이즈는 65536로 설정되어있습니다.
+
+*파이프명에 수정이 필요할경우 파이프 명만 수정하시면 됩니다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+3.C/C++
+2
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+headEnc_ws
+3
+!!head::U headEnc_ws(wstring _ws)
+*wstring에 맞는 헤더를 인코딩해서 리턴한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+y_wP
+3
+!!z::t y_wP(y::p&  y_, w::P& _wP, z::R _z)
+*_wP를 받아서 _z바이트 수 만큼 y_에 할당한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+y_ws
+3
+!!vo::t y_ws(y::p& y_, wstring _s)
+*wstring _s를 받아서 y_에 바이트로 할당한다
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+wp_y
+3
+!!vo::t wp_y(w::p& wp_, y::P& _y, z::R _z)
+*_y에서 _z만큼을 읽어서 wp_에 할당한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+ws_headRaw
+3
+!!wstring ws_headRaw(y::P& _yRaw, head::R _head)
+*ws타입의 헤더와 y::p 타입 포인터를 받아서 wstring으로 리턴한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+headRaw_ws
+3
+!!head::U headRaw_ws(y::p& yRaw_, wstring _ws)
+*wstring _ws를 받아서 해당 유니코드 문자열은 yRaw_에 담고 그 헤더를 리턴한다
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+yHdr_ws
+3
+!!i::T yHdr_ws(y::p& yHdr_, wstring _ws)
+*wstring 타입 데이터 _ws를 받아서 헤더와 raw데이터를 포함한 바이트데이터 타입인  yHdr_에 할당한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+ws_yHdr
+3
+!!wstring  ws_yHdr(y::P& _yHdr)
+*wstring의 헤더와 raw데이터를 담고있는 yHdr타입 데이터로부터 wstring raw데이터만을 추출해서 리턴한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+ws_mmf
+3
+!!wstring ws_mmf(hnd::R _hMmf)
+*_hMmf에 할당되어져 있는 mmf로부터 wstring 데이터를 읽어서 리턴한다.
+ 
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+mmf_ws
+3
+!!b::T mmf_ws(hnd::r  hMmf_, wstring _ws)
+* hMmf_에 할당되어져 있는 mmf에 wstring 문자열 _ws를 write한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+read_s
+3
+!!void read_s()
+*기본값으로 'mmftest_pchr'의 이름을 가진 mmf로부터 문자열을 읽어서 콘솔에 출력한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+read_ws
+3
+!!void read_ws()
+*기본값으로 'mmftest_pchr'의 이름을 가진 mmf로부터 유니코드 문자열을 읽어서 콘솔에 출력한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+write_s
+3
+!!void write_s()
+*기본값 'mmftest_pchr'의 이름을 가진 mmf에 hello from c++...! 을 yHdr타입으로 write한다. 
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+write_ws
+3
+!!void write_ws()
+*기본값 'mmftest_pchr'의 이름을 가진 mmf에 hello 안녕하세요 from c++..! 을 yHdr타입으로 write한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+read_pip
+3
+!!void read_pip()
+*기본이름 '\\\\.\\pipe\\Foo'을 가진 namedPipe로부터 yHdr을 받아서 s::t 타입 문자열로 콘솔에 출력한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+write_pip
+3
+!!void write_pip()
+*기본이름 '\\\\.\\pipe\\Foo'을 가진 namedPipe를 생성하고 문자열 'hello python..! from c++'을 write한다.
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+pip_ws
+3
+!!void pip_ws()
+*기본이름 '\\\\.\\pipe\\Foo'을 가진 namedPipe를 생성하고 유니코드 문자열 '안녕하세요 파이썬..! from c++' 을 yHdr타입으로 write한다. 
+
+!!사용법
+
+<code>
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
+dt=Text
+<node>
+ws_pip
+3
+!!void ws_pip()
+*기본이름 '\\\\.\\pipe\\Foo'을 가진 namedPipe로부터 yHdr을 받아서 wstring 타입 문자열로 콘솔에 출력한다.
+
+!!사용법
+
+<code>
+
+</code>
+
+!!결과
+{{{
+
+}}}
+
+<end node> 5P9i0s8y19Z
